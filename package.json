@@ -1,0 +1,31 @@
+{
+  "name": "gulp-ts2php",
+  "version": "1.0.0",
+  "description": "ts2php plugin for gulp",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/searchfe/gulp-ts2php.git"
+  },
+  "keywords": [
+    "ts2php"
+  ],
+  "author": "chaiyanchen@baidu.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/searchfe/gulp-ts2php/issues"
+  },
+  "homepage": "https://github.com/searchfe/gulp-ts2php#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "through2": "^3.0.1",
+    "ts2php": "^0.9.3",
+    "typescript": "^3.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.2"
+  }
+}
