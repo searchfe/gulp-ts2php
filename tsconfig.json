@@ -1,9 +1,10 @@
 {
     "compilerOptions": {
         "module": "commonjs",
-        "allowJs": true,
         "outDir": "dist",
-        "target": "es2015"
+        "target": "es2015",
+        "declaration": true,
+        "declarationDir": "./types"
     },
-    "include": ["src/**/*.ts","./global.d.ts"]
+    "include": ["src/**/*.ts"]
 }
