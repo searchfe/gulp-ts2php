@@ -1,6 +1,6 @@
 {
   "name": "gulp-ts2php",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ts2php plugin for gulp",
   "main": "dist/index.js",
   "scripts": {
