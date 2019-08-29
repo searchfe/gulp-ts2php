@@ -1,15 +1,16 @@
 {
   "name": "gulp-ts2php",
-  "version": "1.0.4",
+  "version": "0.0.0-development",
   "description": "ts2php plugin for gulp",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/searchfe/gulp-ts2php.git"
+    "url": "https://github.com/searchfe/gulp-ts2php.git"
   },
   "keywords": [
     "ts2php"
@@ -31,7 +32,23 @@
     "typescript": "^3.4.5"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/git": "^7.0.8",
+    "@semantic-release/npm": "^5.1.7",
+    "@semantic-release/release-notes-generator": "^7.1.4",
     "@types/node": "^12.0.2",
-    "ts2php": "^0.11.0"
+    "ts2php": "^0.11.0",
+    "semantic-release": "^15.13.24"
+  },
+  "release": {
+    "branch": "master",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ]
   }
 }
