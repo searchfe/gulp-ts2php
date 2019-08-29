@@ -14,6 +14,11 @@
     "ts2php"
   ],
   "author": "chaiyanchen@baidu.com",
+  "files": [
+    "dist",
+    "*.json",
+    "*.md"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/searchfe/gulp-ts2php/issues"
