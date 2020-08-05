@@ -29,7 +29,7 @@
   "dependencies": {
     "gulp-util": "^3.0.8",
     "through2": "^3.0.1",
-    "typescript": "^3.4.5"
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.2",
@@ -38,8 +38,8 @@
     "@semantic-release/npm": "^5.1.7",
     "@semantic-release/release-notes-generator": "^7.1.4",
     "@types/node": "^12.0.2",
-    "ts2php": "^0.11.0",
-    "semantic-release": "^15.13.24"
+    "semantic-release": "^15.13.24",
+    "ts2php": "^0.28.4"
   },
   "release": {
     "branch": "master",
