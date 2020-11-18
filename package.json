@@ -38,7 +38,7 @@
     "@semantic-release/npm": "^5.1.7",
     "@semantic-release/release-notes-generator": "^7.1.4",
     "@types/node": "^12.0.2",
-    "semantic-release": "^15.13.24",
+    "semantic-release": "^17.2.3",
     "ts2php": "^0.28.4"
   },
   "release": {
